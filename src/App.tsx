@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { MondaiType } from './types/UserType'
 
 function App() {
   const isFlag1: boolean = true;
@@ -113,16 +114,14 @@ function App() {
   let renshuu1: Mondai = { id: 1, name: 'mondai', url: 'https://mondai.com', isStart: false };
 
 
-
-
-
-
   const moundai = {
     id: 1,
     name: 'mondai1',
     url: 'https://mondai.com',
     isStart: false,
   };
+
+  const normal: MondaiType = { id: 1, name: 'mondai', url: 'https://mondai.com', isStart: false };
 
 
 

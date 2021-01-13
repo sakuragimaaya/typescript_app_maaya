@@ -1,10 +1,10 @@
 import React from 'react';
 
-export interface Mondai {
+export interface MondaiType {
     id: number;
     name: string;
     url: string;
     isStart: false;
 }
-let normal: Mondai = { id: 1, name: 'mondai', url: 'https://mondai.com', isStart: false };
+const normal: MondaiType = { id: 1, name: 'mondai', url: 'https://mondai.com', isStart: false };
 
