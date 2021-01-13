@@ -104,6 +104,30 @@ function App() {
   console.log(Month.April);
 
 
+  type Mondai = {
+    id: number;
+    name: string;
+    url: string;
+    isStart: false;
+  }
+  let renshuu1: Mondai = { id: 1, name: 'mondai', url: 'https://mondai.com', isStart: false };
+
+
+
+
+
+
+  const moundai = {
+    id: 1,
+    name: 'mondai1',
+    url: 'https://mondai.com',
+    isStart: false,
+  };
+
+
+
+
+
 
 
 
